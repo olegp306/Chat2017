@@ -11,5 +11,6 @@ namespace Chat2017.Dal.Models
         public int MessageId { get; set; }
         public Chat Chat { get; set; }
         public User User { get; set; }
+        public string Content { get; set; }
     }
 }
